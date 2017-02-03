@@ -1,6 +1,6 @@
 
-#include<SDL2/SDL.h>
-#include<SDL2/SDL_image.h>
+#include<C:\Program Files (x86)\CodeBlocks\mingw32_libs\i686-w64-mingw32\include\SDL2\SDL.h>
+#include<C:\Program Files (x86)\CodeBlocks\mingw32_libs\i686-w64-mingw32_extension\include\SDL2\SDL_image.h>
 #include<iostream>
 
 SDL_Window* window;
@@ -54,6 +54,21 @@ int main( int argc, char* args[] )
             {
                 if(Event.key.keysym.sym == SDLK_d)
                     rect_character.x++;
+            }
+            if(Event.type == SDL_KEYDOWN)
+            {
+                if(Event.key.keysym.sym == SDLK_a)
+                    rect_character.x--;
+            }
+            if(Event.type == SDL_KEYDOWN)
+            {
+                if(Event.key.keysym.sym == SDLK_w)
+                    rect_character.y--;
+            }
+            if(Event.type == SDL_KEYDOWN)
+            {
+                if(Event.key.keysym.sym == SDLK_s)
+                    rect_character.y++;
             }
         }
 
