@@ -557,10 +557,16 @@
 	<SDL2/SDL_image.h>
 	<iostream>
 
-1486133312 source:c:\users\adolfalcantara\desktop\progra3\lab progra 3\sdl2testsimple\main.cpp
-	<C:\Program Files (x86)\CodeBlocks\mingw32_libs\i686-w64-mingw32\include\SDL2\SDL.h>
-	<C:\Program Files (x86)\CodeBlocks\mingw32_libs\i686-w64-mingw32_extension\include\SDL2\SDL_image.h>
+1487965425 source:c:\users\adolfalcantara\desktop\progra3\lab progra 3\sdl2testsimple\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
 	<iostream>
+	<string>
+	<sstream>
+	<vector>
+	<cstdlib>
+	<time.h>
 
 1476935894 c:\program files (x86)\codeblocks\mingw32_libs\i686-w64-mingw32\include\sdl2\sdl.h
 	"SDL_main.h"
@@ -884,6 +890,17 @@
 1451800373 c:\program files (x86)\codeblocks\mingw32_libs\i686-w64-mingw32_extension\include\sdl2\sdl_image.h
 	"SDL.h"
 	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451800373 c:\program files (x86)\codeblocks\mingw32_libs\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1454355748 c:\program files (x86)\codeblocks\mingw32_libs\i686-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
 	"begin_code.h"
 	"close_code.h"
 
